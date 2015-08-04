@@ -4,7 +4,7 @@
 
 A tiny HTTP server CLI and API, mainly for local development.
 
-Serves a default `index.html` and an optional JavaScript entry-point. By default, uses `localhost` and port `8080` (or searches for the next available port).
+Serves a [default `index.html`](https://www.npmjs.com/package/simple-html-index) and an optional JavaScript entry-point. By default, uses `localhost` and port `8080` (or searches for the next available port).
 
 When using the programmatic API, the `entry` and `index` can be a `middleware(req, res)` function. For example, to bundle with [browserify](https://www.npmjs.com/package/browserify).
 
