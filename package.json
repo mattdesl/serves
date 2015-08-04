@@ -1,6 +1,6 @@
 {
   "name": "serves",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bare-bones HTTP server with optional script entry",
   "main": "index.js",
   "license": "MIT",
