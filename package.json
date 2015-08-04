@@ -1,0 +1,53 @@
+{
+  "name": "serves",
+  "version": "1.0.0",
+  "description": "bare-bones HTTP server with optional script entry",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "ecstatic": "^0.8.0",
+    "getport": "^0.1.0",
+    "minimist": "^1.1.2",
+    "path-is-absolute": "^1.0.0",
+    "simple-html-index": "^1.0.1",
+    "term-color": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "faucet": "0.0.1",
+    "run-parallel": "^1.1.2",
+    "simple-get": "^1.4.2",
+    "standard": "^5.0.0",
+    "tape": "^4.0.2",
+    "through2": "^2.0.0"
+  },
+  "scripts": {
+    "test": "standard && node test/index.js | faucet"
+  },
+  "keywords": [
+    "entry",
+    "html",
+    "default",
+    "index",
+    "http",
+    "server",
+    "cli",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/serves.git"
+  },
+  "homepage": "https://github.com/mattdesl/serves",
+  "bugs": {
+    "url": "https://github.com/mattdesl/serves/issues"
+  },
+  "bin": {
+    "serves": "./bin/cmd.js"
+  }
+}

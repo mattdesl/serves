@@ -1,0 +1,9 @@
+Usage:
+  serves [entry.js] [opts]
+  
+Options:
+  --title, -t    HTML title
+  --root, -r     root directory for static files (default cwd)
+  --port, -p     base port to attempt (default 8080)
+  --host, -h     host name (default localhost)
+  --index, -i    HTML file to serve as index.html
