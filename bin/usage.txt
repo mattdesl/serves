@@ -6,4 +6,5 @@ Options:
   --root, -r     root directory for static files (default cwd)
   --port, -p     base port to attempt (default 8080)
   --host, -h     host name (default localhost)
+  --css, -s      optional path to a CSS file
   --index, -i    HTML file to serve as index.html

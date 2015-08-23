@@ -7,6 +7,7 @@ var argv = require('minimist')(process.argv.slice(2), {
     host: 'h',
     root: 'r',
     title: 't',
+    css: 's',
     index: 'i'
   },
   string: ['root', 'title', 'index', 'host']

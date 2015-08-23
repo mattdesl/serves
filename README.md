@@ -58,6 +58,7 @@ Options:
   --root, -r     root directory for static files (default cwd)
   --port, -p     base port to attempt (default 8080)
   --host, -h     host name (default localhost)
+  --css, -s      optional path to a CSS file
   --index, -i    HTML file to serve as index.html
 ```
 
@@ -88,6 +89,9 @@ Options:
   - the host name, default `'localhost'`
 - `title` (String|undefined)
   - the HTML title, if unspecified no `<title>` will be written
+- `css` (String|undefined)
+  - an optional href path for a `<link rel="stylesheet">` tag in the `<head>`
+  - only gets applied to the default `index` handler
 
 If you specify a function for `entry`, the script will serve `'index.js'` by default. This pathname be changed with `opt.src`.
 

@@ -6,6 +6,7 @@ require('../')({
   cwd: cwd,
   title: 'test',
   src: 'client.js',
+  css: 'style.css',
   entry: function (req, res) {
     browserify(path.join(cwd, 'client.js'))
       .bundle()

@@ -105,7 +105,8 @@ function clientServer (opts, cb) {
     res.setHeader('content-type', 'text/html')
     defaultHtml({
       title: title,
-      entry: srcUrl
+      entry: srcUrl,
+      css: opts.css
     }).pipe(res)
   }
 

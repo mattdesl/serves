@@ -14,7 +14,7 @@
     "getport": "^0.1.0",
     "minimist": "^1.1.2",
     "path-is-absolute": "^1.0.0",
-    "simple-html-index": "^1.0.1",
+    "simple-html-index": "^1.1.0",
     "term-color": "^1.0.1"
   },
   "devDependencies": {
