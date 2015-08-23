@@ -91,6 +91,7 @@ Options:
   - the HTML title, if unspecified no `<title>` will be written
 - `css` (String|undefined)
   - an optional href path for a `<link rel="stylesheet">` tag in the `<head>`
+  - relative to `root` since it is just an href in the tag
   - only gets applied to the default `index` handler
 
 If you specify a function for `entry`, the script will serve `'index.js'` by default. This pathname be changed with `opt.src`.
